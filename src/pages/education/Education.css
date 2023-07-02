@@ -1,0 +1,70 @@
+.education .heading{
+    color: var(--orange);
+    text-align: center;
+    margin-left: -5rem;
+    padding: 3rem;
+}
+.education .heading span{
+    color: var(--color-white);
+}
+
+.education .education__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .education__container .box{
+    width: 27rem;
+    margin: 4rem 3rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid var(--color-white);
+    position: relative;
+}
+
+.education .education__container .box>:nth-child(1){
+    position: absolute;
+    top: -3rem;
+    left: -1.5rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    background: var(--yellow);
+    border-radius: 2rem;
+}
+
+.education .education__container .box>:nth-child(2){
+    color: var(--color-white);
+    border-radius: 5rem;
+}
+.education .education__container .box>:nth-child(3){
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: var(--color-white);
+}
+
+.education .education__container .box>:nth-child(4){
+    color: var(--gray);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+
+@media screen and (max-width:1024) {
+    .education__container{
+        margin-left: 2rem;
+    }
+    .education__me{
+        margin-left: -4rem;
+    }
+    .education__cards{
+        /* display: grid; */
+        grid-template-columns: 1fr ;
+        gap: 1rem;
+    }
+}

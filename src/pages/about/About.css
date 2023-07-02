@@ -1,0 +1,132 @@
+
+section h1{
+    /* margin-left: 10rem; */
+    margin-top: 4rem;
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 10%;
+    place-items: center;
+    margin-top: 1.5rem;
+}
+
+.about__me{
+    width: 80%;
+    height: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    margin:5rem 0rem 0rem 0rem;
+}
+
+.about__me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    height: 100%;
+    transform: rotate(10deg);
+    transition: all 0.3s;
+}
+
+.about__me-image img {
+    width: 100%;
+}
+.about__me-image:hover{
+    transform: rotate(0);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about__card{
+    background-color: var(--color-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: default;
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    
+}
+
+.about__card>:nth-child(1){
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .about__icon{
+    color: var(--color-primary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+} */
+.about__card h4{
+    color: var(--color-white);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.about__card:hover h4{
+    color: var(--color-white);
+}
+.about__card .btn{
+    margin-bottom: -3rem;
+}
+
+.about__content .heading{
+    color: var(--orange);
+    text-align: left;
+    margin-left: -5rem;
+    font-size: 1.8rem;
+}
+.about__content .heading span{
+    color: var(--color-white);
+}
+.about__content .head{
+    font-size: 1.5rem;
+    color: var(--yellow);
+}
+.about__content .head span{
+    font-size: 1rem;
+    color: var(--color-white);
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .me{
+        margin-left: 17rem;
+    }
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me{
+        width: 60%;
+        margin: 2rem auto 4rem;
+    }
+    
+
+    .about__content{
+        margin: 1rem 2rem 0 3rem;
+    }
+    .about__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+}
