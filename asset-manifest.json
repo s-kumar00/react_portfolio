@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.5f621d62.css",
+    "main.js": "/react_portfolio/static/js/main.fbb46cfc.js",
+    "static/media/me1.png": "/react_portfolio/static/media/me1.19056fbb937d2e5512b4.png",
+    "static/media/project2.png": "/react_portfolio/static/media/project2.8ef0eda1bcdb43c27a7a.png",
+    "static/media/project1.png": "/react_portfolio/static/media/project1.b5f28685e543ac9b310f.png",
+    "static/media/me-about.jpg": "/react_portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/project4.png": "/react_portfolio/static/media/project4.9b8319a82b5ec2e5054c.png",
+    "static/media/Resume.pdf": "/react_portfolio/static/media/Resume.eda93453006aea23c02d.pdf",
+    "static/media/Vector2.png": "/react_portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/Sun.svg": "/react_portfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/react_portfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/react_portfolio/index.html",
+    "main.5f621d62.css.map": "/react_portfolio/static/css/main.5f621d62.css.map",
+    "main.fbb46cfc.js.map": "/react_portfolio/static/js/main.fbb46cfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f621d62.css",
+    "static/js/main.fbb46cfc.js"
+  ]
+}
