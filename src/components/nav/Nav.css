@@ -20,7 +20,7 @@ nav a{
     border-radius: 50%;
     display: flex;
     color: var(--color-primary);
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 nav a:hover{
@@ -32,11 +32,23 @@ nav a.active{
     color: var(--color-white);
 }
 
+
 @media screen and (max-width:1024px){
     nav{
         width: fit-content;
     }
     nav a{
-        padding: 0.8rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    nav{
+        width: 95%;
+    }
+    nav a{
+        padding: 0.6rem;
+        font-size: 0.7rem;
     }
 }

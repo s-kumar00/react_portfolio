@@ -52,21 +52,43 @@ section h1{
   color: var(--color-white);
 }
 
-.port_icon .btn2{
-  margin-left: 32rem;
+.port_icon{
+  display: grid;
+  grid-template-columns: 90% 10%;
 }
-.port_icon .btn1{
-  margin-left: 2rem;
-}
+
+
 @media screen and (max-width: 1024px){
     
   .portfolio__container{
       grid-template-columns: 1fr;
       gap: 1.5rem;
       margin-left: 2rem;
+      /* margin-bottom: -3rem; */
   }
   .portfolio__items p{
-    font-size: 1.1rem;
-    color: var(--gray);
+    display: none;
   }
+  .portfolio__items h3{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 600px){
+    
+  .container.portfolio__container{
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin-left: 1rem;
+  }
+  .portfolio__items p{
+    display: none;
+  }
+  .portfolio__items h3{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
 }

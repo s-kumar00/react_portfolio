@@ -224,7 +224,7 @@ const Skill = (props) => {
             <article className="skill__details">
             <VerifiedIcon className="skill_icon"></VerifiedIcon>
               <div>
-                <h4>Problem_Solving</h4>
+                <h4>Problem Solving</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
@@ -245,21 +245,7 @@ const Skill = (props) => {
             <article className="skill__details">
             <VerifiedIcon className="skill_icon"></VerifiedIcon>
               <div>
-                <h4>Critical_Thinking</h4>
-                {/* <small className="text-light">Experienced</small> */}
-              </div>
-            </article>
-            <article className="skill__details">
-            <VerifiedIcon className="skill_icon"></VerifiedIcon>
-              <div>
                 <h4>Communication</h4>
-                {/* <small className="text-light">Experienced</small> */}
-              </div>
-            </article>
-            <article className="skill__details">
-            <VerifiedIcon className="skill_icon"></VerifiedIcon>
-              <div>
-                <h4>HTML</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>

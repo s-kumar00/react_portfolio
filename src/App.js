@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <DarkMode />
-      <BrowserRouter>
+      <BrowserRouter basename="react_portfolio">
         <Nav />
         <Social />
         <Routes>

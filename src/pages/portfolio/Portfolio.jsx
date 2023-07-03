@@ -16,11 +16,11 @@ const Portfolio = () => {
           <div className='portfolio__imgg'>
             <img src={ME_1} alt="noreferrer" />
           </div>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <h3>This is my another portfolio. 
             <br /><span>TECH : </span>HTLM, CSS, JAVASCRIPT:
           </h3>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <div className="port_icon">
             <a href='https://github.com/s-kumar00/PortFolio' className='btn1' target='_blank' rel="noreferrer"><GitHubIcon /></a>
             <a href='https://s-kumar00.github.io/PortFolio/#portfolio' className='btn2' target='_blank' rel="noreferrer"><LanguageIcon /></a>
@@ -31,11 +31,11 @@ const Portfolio = () => {
           <div className='portfolio__imgg'>
             <img src={ME_2} alt="noreferrer" />
           </div>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <h3>this is Gym Fitness Club live Project. 
             <br /><span>TECH : </span>HTML , CSS, JS, HBS, NODEJS ,MONGODB
           </h3>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <div className="port_icon">
             <a href='https://github.com/s-kumar00/gym' className='btn1' target='_blank' rel="noreferrer"><GitHubIcon /></a>
             <a href='https://s-kumar00.github.io/gym/' className='btn2' target='_blank' rel="noreferrer"><LanguageIcon /></a>
@@ -46,14 +46,14 @@ const Portfolio = () => {
           <div className='portfolio__imgg'>
             <img src={ME_1} alt="noreferrer" />
           </div>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <h3>this is a Weather Api project where you can fetch wheather after inter city name.
           <br /><span>TECH : </span>HTML , CSS.
           </h3>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <div className="port_icon">
-            <a href='https://github.com' className='btn1' target='_blank' rel="noreferrer"><GitHubIcon /></a>
-            <a href='https://github.com' className='btn2' target='_blank' rel="noreferrer"><LanguageIcon /></a>
+            <a href='https://github.com'  target='_blank' rel="noreferrer"><GitHubIcon /></a>
+            <a href='https://github.com'  target='_blank' rel="noreferrer"><LanguageIcon /></a>
           </div>
         </article>
         <article className='portfolio__items'>
@@ -61,11 +61,11 @@ const Portfolio = () => {
           <div className='portfolio__imgg'>
             <img src={ME_4} alt="noreferrer" />
           </div>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <h3>this is a Basic Calculator. 
           <br /><span>TECH : </span>HTML , CSS.
           </h3>
-          <p>-----------------------------------------------------------------------------</p>
+          <p>---------------------------------------------------------------------------</p>
           <div className="port_icon">
             <a href='https://github.com/s-kumar00/Calculator' className='btn1' target='_blank' rel="noreferrer"><GitHubIcon /></a>
             <a href='https://s-kumar00.github.io/Calculator/' className='btn2'target='_blank' rel="noreferrer"><LanguageIcon /></a>

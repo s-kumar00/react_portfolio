@@ -70,4 +70,18 @@
         gap: 1.5rem;
     }
     
+    
+}
+
+@media screen and (max-width: 600px){
+    
+    .skill__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .skill__container > div{
+        margin-left: -3rem;
+        padding: 0.5rem;
+    }
+    
 }

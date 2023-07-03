@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assests/me-about.jpg'
+import ME from '../../assests/pik.jpg'
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import FolderCopyIcon from '@mui/icons-material/FolderCopy';

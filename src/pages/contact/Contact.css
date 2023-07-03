@@ -60,6 +60,9 @@ input ,textarea{
 }
 
 @media screen and (max-width: 1024px){
+    .con{
+        font-size: 2rem;
+    }
     .container.contact__container{
         grid-template-columns: 1fr;
         gap: 10rem;
@@ -72,5 +75,27 @@ input ,textarea{
     }
     input ,textarea{
         width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .con{
+        font-size: 2rem;
+    }
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 10rem;
+        margin-bottom: 7rem;
+        margin-left: -4rem;
+    }
+    .contact__options{
+        font-size: 1.3rem;
+    }
+    form{
+        margin-left: 5rem;
+        margin-top: -6rem;
+    }
+    input ,textarea{
+        width: 100%;
     }
 }

@@ -82,10 +82,37 @@
         gap: 15%;
     }
     .section__left{
-        margin-top: -5rem;
+        margin-top: -1rem;
     }
     .section__right{
         margin-top: 2rem;
         margin-right: 1rem;
+    }
+    .section__right>*{
+        position: absolute;
+        z-index: 1;
+    }
+    .section__right>:nth-child(3){
+        transform: scale(0.3);
+        margin-left: -70rem;
+        margin-top: -42rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .section__container{
+        margin-top: 6rem;
+        gap: 6%;
+    }
+    .section__left{
+        margin-top: 10rem;
+        margin-left: -3rem;
+    }
+    .section__left .left__name{
+        font-size: 1.5rem;
+    }
+    .section__right{
+        display: none;
     }
 }

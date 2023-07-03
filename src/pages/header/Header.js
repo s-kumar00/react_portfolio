@@ -14,9 +14,9 @@ const Header = () => {
         <div className="container section__container">
           <div className="section__left">
             <span>Hy! I Am</span>
-            <h3><span>Sikandar Kumar</span></h3>
+            <h3 className="left__name"><span>Sikandar Kumar</span></h3>
             <span>I Am a <Typewriter
-            words={['Programmer', 'Problem Solver', 'Web Designer', 'Full stack Developer']}
+            words={['Programmer', 'Problem Solver', 'Web Designer', 'Web Developer']}
             loop={0}
             cursor
             cursorStyle='_'

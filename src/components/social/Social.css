@@ -28,3 +28,13 @@
 .social a:hover{
     width: 14rem;
 }
+
+@media screen and (max-width:1024px){
+    /* .social{
+        padding: 1.5rem;
+    } */
+    .social a{
+        font-size: 150%;
+        font-weight: 700;
+    }
+}
